@@ -1,3 +1,8 @@
 *.dll
 *.lib
 *.bmp
+*.opensdf
+*.sdf
+*.suo
+**/debug/*
+**/release/*
