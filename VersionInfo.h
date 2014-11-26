@@ -1,0 +1,5 @@
+#include <utils.h>
+
+#define MAJOR_VERSION	1
+#define MINOR_VERSION	88
+#define VERSION_STRING	QUOTE( MAJOR_VERSION ) "." QUOTE( MINOR_VERSION )

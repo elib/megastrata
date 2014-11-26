@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<NoiseViewer MajorVersion="1" MinorVersion="88">
+    <World VisualMode="1" RenderMode="0" WindowSizeX="16" WindowSizeY="16">
+        <Camera>
+            <Position x="12.182908" y="16.927416" z="9.523389" />
+            <Lookat x="9.041793" y="9.074582" z="0.100000" />
+        </Camera>
+        <Character TurnAngle="36.215370" UpAngle="1.426627">
+            <Position x="9.041793" y="9.074582" z="0.100000" />
+            <Lookat x="9.127835" y="8.088704" z="0.243670" />
+        </Character>
+    </World>
+    <LayerManager>
+        <Generator TypeID="6">
+            <Variables>
+                <Variable name="Distribution" OverrideValue="0.500000">
+                    <SubLayer inverse="0" TypeID="0">
+                        <Transform scale_x="0.469600" scale_y="0.469600" translate_x="0.000000" translate_y="0.000000" />
+                        <Variables>
+                            <Variable name="Cutoff" OverrideValue="0.810000" />
+                        </Variables>
+                    </SubLayer>
+                </Variable>
+            </Variables>
+        </Generator>
+        <Generator TypeID="4">
+            <Variables>
+                <Variable name="Connectivity" OverrideValue="1.100000">
+                    <SubLayer inverse="1" TypeID="0">
+                        <Transform scale_x="0.376810" scale_y="0.376810" translate_x="26.409792" translate_y="-26.799267" />
+                        <Variables>
+                            <Variable name="Cutoff" OverrideValue="0.110000" />
+                        </Variables>
+                    </SubLayer>
+                </Variable>
+                <Variable name="Node exists" OverrideValue="0.500000">
+                    <SubLayer inverse="0" TypeID="0">
+                        <Transform scale_x="5.491856" scale_y="5.491856" translate_x="-0.117436" translate_y="-0.164397" />
+                        <Variables>
+                            <Variable name="Cutoff" OverrideValue="0.060000" />
+                        </Variables>
+                    </SubLayer>
+                </Variable>
+                <Variable name="Node height" OverrideValue="0.300000">
+                    <SubLayer inverse="1" TypeID="0">
+                        <Transform scale_x="1.000000" scale_y="1.000000" translate_x="0.000000" translate_y="0.000000" />
+                        <Variables>
+                            <Variable name="Cutoff" OverrideValue="-0.530000" />
+                        </Variables>
+                    </SubLayer>
+                </Variable>
+                <Variable name="Bevel info" OverrideValue="0.000000">
+                    <SubLayer inverse="0" TypeID="0">
+                        <Transform scale_x="0.062673" scale_y="0.062673" translate_x="0.000000" translate_y="0.000000" />
+                        <Variables>
+                            <Variable name="Cutoff" OverrideValue="-0.350000" />
+                        </Variables>
+                    </SubLayer>
+                </Variable>
+            </Variables>
+        </Generator>
+    </LayerManager>
+</NoiseViewer>

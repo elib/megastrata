@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="ViewPort" Collapsed="true">
+    <Position X="13.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIACIAAAAAACABAEAAIAIAAgAEAACAABAAAAAAAAA=</HashCode>
+      <FileName>ViewPort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Viewer2d" Collapsed="true">
+    <Position X="15" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAACAAAAAAAKAQAAIAIAIAAgQAAAAAAFAkAAAAAAA=</HashCode>
+      <FileName>Viewer2d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LayerVariable" Collapsed="true">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAUAgAAIAEAIwBAAQIAAAAAAAAMAAUUAAAEAAAABQA=</HashCode>
+      <FileName>LayerVariable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Transform" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAACAAIAAAQAAAAAAAAQAAAAAAAAAYA=</HashCode>
+      <FileName>Transform.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeneratorBase" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAQAAAAQAQAAAACAQBAAAAAABQAQAgAIAAAwA=</HashCode>
+      <FileName>GeneratorBase.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ParentLayer" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="m_layerVariables" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Circles" Collapsed="true">
+    <Position X="3" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABBAAAAAAAAAQAAAAAACAEAAAAAAAAAAA=</HashCode>
+      <FileName>Circles.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NoiseSlice" Collapsed="true">
+    <Position X="0.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAQAAAAAggAAAEAAAAAAAAA=</HashCode>
+      <FileName>NoiseSlice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubGenerator" Collapsed="true">
+    <Position X="3" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAQAIAAABAQAAAIKAAAABAAAQAAAQABAEABAAAQA=</HashCode>
+      <FileName>SubGenerator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SquareOverlay" Collapsed="true">
+    <Position X="5.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAQAABAAAAAAAAAAQAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SquareOverlay.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boxes" Collapsed="true">
+    <Position X="7.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAIAAAAEAA=</HashCode>
+      <FileName>Boxes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JunctionBoxes" Collapsed="true">
+    <Position X="9.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAEAAAAAAAAQAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>JunctionBoxes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camera" Collapsed="true">
+    <Position X="10.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAABAAgwAAAAAAAAAAAAAIQAAAAAAAAAQA=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character" Collapsed="true">
+    <Position X="13.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAARAAAAAAAgAAAUAAAAAAQAAIAAAAAKQA=</HashCode>
+      <FileName>Character.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vector3d" Collapsed="true">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAQQAcAEAAAAACAAAAAAQAABgAQEAAQA=</HashCode>
+      <FileName>Vector3d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="World" Collapsed="true">
+    <Position X="12.25" Y="5.75" Width="1.5" />
+    <Members>
+      <Field Name="m_architecture" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>wAVKACAQAhCAACAAEUFQIAgABgAOAAgQgBAEDAEAGQA=</HashCode>
+      <FileName>World.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="theWorld" />
+      <Field Name="camera" />
+      <Field Name="character" />
+      <Field Name="m_architecture" />
+      <Field Name="m_currentLayer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GeneratedEntities" Collapsed="true">
+    <Position X="13.75" Y="7" Width="1.5" />
+    <Members>
+      <Field Name="m_EntityCollection" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgQAAAAAAEAAABAAAEAAAAAAAABAIQAKAAAA=</HashCode>
+      <FileName>GeneratedEntities.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_EntityCollection" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Entity3dCollection" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIABAAAQAQAAEAAAAAAAAAEJAABAFCAAA=</HashCode>
+      <FileName>Entity3dCollection.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_disjointSets" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="m_entities" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DisjointSets" Collapsed="true">
+    <Position X="17.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAQAAAABAACAIAAAAAAgAAAQAAAAiAAAQAAAAA=</HashCode>
+      <FileName>d:\Projects\glut-megastructure\disjoint\DisjointSets.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entity3d" Collapsed="true">
+    <Position X="15.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACCAQIAAAEAAQQAQEAAgAAAAAAAAACAABAAAIAAAAA=</HashCode>
+      <FileName>Entity3d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GuiManager" Collapsed="true">
+    <Position X="13.75" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>UAwEAEAGQAAAqeANFQF6KAqLQqgcRkO1ggGhoATEAQQ=</HashCode>
+      <FileName>GuiManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_Manager" />
+      <Field Name="m_World" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="m_availableViewports" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Generator" Collapsed="true">
+    <Position X="8.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAECAAAAAQAAAAAAAAGBAAAAAEEAAQAAAQAAAAEQA=</HashCode>
+      <FileName>Generator.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="world" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

@@ -1,0 +1,6 @@
+//   The code is property of LIBROW
+//   You can use it on your own
+//   When utilizing credit LIBROW site
+
+Found here: http://www.librow.com/articles/article-9
+Linked by a wikipedia article: http://en.wikipedia.org/wiki/Gaussian_blur
